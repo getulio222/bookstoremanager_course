@@ -17,7 +17,7 @@ public class BookController {
 			@ApiResponse(code = 200, message = "Sucesso")
 	})
 	public String testRequest() {
-		return "Metodo retornado com sucesso!";
+		return "Metodo retornado com sucesso! - Exemplo utilizando o Pull Request";
 	}
 
 }
